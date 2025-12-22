@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.card {
+    /* display: flex;
+    justify-content: center; */
+    max-height: 70%;
+    width: 35%;
+    margin: 45px auto 30px auto;
+    border-radius: 20px;
+    background: radial-gradient(circle, rgba(42, 123, 155, 1) 19%, rgba(87, 199, 133, 1) 59%, rgba(196, 184, 71, 1) 100%);
+}
+
+
+.search-bar {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-bar input {
+    padding: 10px 25px;
+    margin-left: 30px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    outline-color: white;
+    background-color: #ebfffc;
+    color: black;
+    flex: 1;
+    margin-right: 13px;
+    font-size: 18px;
+    height: 50px;
+}
+
+.search-bar button {
+    border-radius: 50%;
+    background-color: white;
+    border: 0;
+    outline: 0;
+    margin-right: 35px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar button img {
+    width: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.container h2 {
+    margin-bottom: 7px;
+    font-size: 3rem;
+}
+
+.side-pictures {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-image img {
+    margin-top: 20px;
+    height: 30px;
+    width: 40px;
+    padding-right: 10px;
+}
+.humidity h3 {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+.left-image,.humidity{
+    float: right;    
+}
+
+.right-image img {
+    margin-top: 17px;
+    height: 30px;
+    width: 40px;
+    padding-right: 10px;
+}
+.wind-speed h3 {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+.wind-speed,.right-image{
+    float: right;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: center;
+    padding-bottom: 25px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: x-large;
+    display: none;
+    color: #000000;
+}
