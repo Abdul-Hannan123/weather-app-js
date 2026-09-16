@@ -42,3 +42,47 @@ A responsive Weather App built using HTML, CSS, and JavaScript. The application 
 5. If the search field is empty or the city name is invalid, an error message is displayed.
 
 ---
+
+## ⚠️ Error Handling
+
+The app handles common invalid inputs:
+
+- Empty search: Shows an error if the user searches without entering a city.
+- Invalid city: Shows an error when the entered city cannot be found.
+- Valid city: Displays the requested weather information.
+
+---
+
+##🎯 Purpose of the Project
+
+This project was created to practice:
+
+- Working with APIs
+- Using JavaScript fetch()
+- Handling asynchronous data
+- Working with JSON responses
+- DOM manipulation
+- Form/input validation
+- Error handling
+- Responsive web design
+
+---
+
+## 🔮 Future Improvements
+
+- Add a 5–7 day weather forecast
+- Add current location/weather detection
+- Add loading animation
+- Add more detailed weather information
+- Add dark/light mode
+- Improve weather icons based on different conditions
+
+---
+
+## 👨‍💻 Author
+
+Abdul Hannan
+
+Frontend Developer | BSCS Student
+
+---
